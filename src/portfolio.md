@@ -5,7 +5,9 @@ title: 个人介绍
 icon: user
 welcome: 🍁这里是
 name: 天一意义
-avatar: https://51img2.51txapp.com/2024/11/23/37f23b89da51488faf692f4b4bea9911!400x400.jpeg
+avatar: \踹手手.png
+
+# https://51img2.51txapp.com/2024/11/23/37f23b89da51488faf692f4b4bea9911!400x400.jpeg
 
 titles:
   - 志之所趋虽远弗宙

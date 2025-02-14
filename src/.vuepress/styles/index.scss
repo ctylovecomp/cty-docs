@@ -17,7 +17,7 @@
   }
 
 
-  
+
 //2. 使头像居中
 
 .vp-portfolio-avatar {
@@ -33,6 +33,14 @@
   }
   
 
+//3. 修改avatar所在的div大小
+
+//4. 修改markdown背景色为金黄色附近的渐变色
+.markdown-body {
+  background: linear-gradient(135deg, #FFD700, #FFEC8B); /* 金黄色渐变 */
+  padding: 20px; /* 添加一些内边距 */
+  border-radius: 10px; /* 添加圆角 */
+}
   
   
   
