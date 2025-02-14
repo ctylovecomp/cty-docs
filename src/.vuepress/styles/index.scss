@@ -1,6 +1,7 @@
 // place your custom styles here
 
-/* 修改导航栏背景颜色为金黄色 */
+//1. 修改导航栏背景颜色为金黄色，文字颜色为白色
+
 .theme-default-navbar {
     background-color: #FFD700 !important; /* 金黄色 */
   }
@@ -15,6 +16,22 @@
     color: #333333 !important; /* 鼠标悬停时的颜色 */
   }
 
+
+  
+//2. 使头像居中
+
+.vp-portfolio-avatar {
+    display: flex;                /* 使用flex布局 */
+    justify-content: center;      /* 水平居中 */
+    align-items: center;          /* 垂直居中 */
+    height: 100%;                 /* 保证div有足够的高度 */
+  }
+  
+  .vp-portfolio-avatar img {
+    max-width: 100%;              /* 防止图片超出容器宽度 */
+    max-height: 100%;             /* 防止图片超出容器高度 */
+  }
+  
 
   
   
