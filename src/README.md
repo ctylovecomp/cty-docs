@@ -5,11 +5,11 @@ title: 笔记导航
 bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
 image: 
-heroText: 天一呀
-tagline: 🍁静态文档知识点展示
+heroText: 立秋
+tagline: 🍁静态文档知识点展示，💖谢谢阮一峰大佬分享的资源：https://wangdoc.com/html/，知识文档仅用于毕设
 actions:
   - text: 前往目录
-    icon: lightbulb
+    icon: list
     link: ./demo/
     type: primary
 
@@ -18,42 +18,42 @@ actions:
 
 highlights:
   - header: HTML教程
-    description: 谢谢💖阮一峰大佬分享的资源：https://wangdoc.com/html/
     image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png
     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     features:
       - title: 1️⃣ HTML简介
-        details: 关于HTML的初步认识
+        details: 介绍HTML的基本概念和结构。
         link: /MeLearnHTML/intro.html
 
       - title: 2️⃣ URL
-        details: 统一资源定位符
+        details: 统一资源定位符，用于标识网页地址。
         link: /MeLearnHTML/url.html
 
       - title: 3️⃣ attribute
-        details: 元素属性
+        details: HTML元素的属性，用于定义元素的特性。
         link: /MeLearnHTML/attribute.html
 
       - title: 4️⃣ Unicode
-        details: 字符编码
+        details: 字符编码标准，支持全球多种语言字符。
         link: /MeLearnHTML/encode.html
 
       - title: 5️⃣ semantic
-        details: 网页的语义结构
+        details: 网页的语义结构，提升代码可读性和SEO效果。
         link: /MeLearnHTML/semantic.html
 
       - title: 6️⃣ text
-        details: 文本标签
+        details: HTML中的文本标签，用于格式化文本内容。
         link: /MeLearnHTML/text.html
 
       - title: 7️⃣ list
-        details: 列表标签
+        details: HTML中的列表标签，用于创建有序或无序列表。
         link: /MeLearnHTML/list.html
 
       - title: 8️⃣ image
-        details: 图像标签
+        details: HTML中的图像标签，用于在网页中嵌入图片。
         link: /MeLearnHTML/image.html
+
 
   - header: JavaScript 教程
     image: https://skillforge.com/wp-content/uploads/2020/10/javascript-wpcf_266x300.png
