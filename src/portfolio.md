@@ -22,12 +22,21 @@ bgImageDark: \微信图片_20250205100242.png
 
 ## 网站目的介绍
 
-```
-山东财经大学 本科生 本科毕业论文项目
+<div class="custom-background">
+  山东财经大学 本科生 本科毕业论文项目
+  
+  网页的主要目的是管理自己散乱的文档，通过markdown和浏览器渲染一个漂亮的笔记。类似于一种笔记本
+  
+  关于项目的内容
+</div>
 
-网页的主要目的是管理自己散乱的文档，通过markdown和浏览器渲染一个漂亮的笔记。类似于一种笔记本
-
-关于项目的内容
-
-```
+<style>
+@media (prefers-color-scheme: light) {
+  .custom-background {
+    background: linear-gradient(135deg, #FFD700, #FFEC8B); /* 金黄色渐变 */
+    padding: 20px; /* 添加一些内边距 */
+    border-radius: 10px; /* 添加圆角 */
+  }
+}
+</style>
 

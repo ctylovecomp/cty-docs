@@ -1,1 +1,51 @@
 // you can change colors here
+
+// Path: src/.vuepress/styles/palette.scss
+// Compare this snippet from src/.vuepress/styles/index.scss:
+// // place your custom styles here
+//
+
+// 20250216 修改1 
+// 白天主题的渐变背景
+html[data-theme="light"] {
+    body {
+      background: linear-gradient(
+        120deg,
+        #fff3cd,
+        #ffe69c,
+        #ffd55a
+      ) !important;
+      background-attachment: fixed !important;
+    }
+  
+    // 导航栏适配
+    .navbar {
+      background: rgba(255, 243, 205, 0.9) !important;
+      backdrop-filter: blur(8px);
+    }
+  
+    // 侧边栏适配
+    .sidebar {
+      background: linear-gradient(
+        to bottom,
+        #fff3cd,
+        #ffe69c
+      ) !important;
+    }
+  
+    // 页脚适配
+    .footer {
+      background: linear-gradient(
+        to right,
+        #ffe69c,
+        #ffd55a
+      ) !important;
+    }
+  }
+  
+  // 黑夜主题保持默认（可选）
+  html[data-theme="dark"] {
+    body {
+      background: var(--bg-color) !important; // 保持主题原背景
+    }
+  }

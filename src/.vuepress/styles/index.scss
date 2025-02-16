@@ -1,24 +1,7 @@
 // place your custom styles here
 
-//1. 修改导航栏背景颜色为金黄色，文字颜色为白色
-
-.theme-default-navbar {
-    background-color: #FFD700 !important; /* 金黄色 */
-  }
-  
-  /* 修改导航栏项的文字颜色为白色 */
-  .theme-default-navbar .nav-item {
-    color: #ffffff !important; /* 设置为白色 */
-  }
-  
-  /* 鼠标悬停时的颜色 */
-  .theme-default-navbar .nav-item:hover {
-    color: #333333 !important; /* 鼠标悬停时的颜色 */
-  }
-
-
-
-//2. 使头像居中
+// 20250216 修改1
+//1. 使头像居中
 
 .vp-portfolio-avatar {
     display: flex;                /* 使用flex布局 */
@@ -31,16 +14,7 @@
     max-width: 100%;              /* 防止图片超出容器宽度 */
     max-height: 100%;             /* 防止图片超出容器高度 */
   }
-  
 
-//3. 修改avatar所在的div大小
-
-//4. 修改markdown背景色为金黄色附近的渐变色
-.markdown-body {
-  background: linear-gradient(135deg, #FFD700, #FFEC8B); /* 金黄色渐变 */
-  padding: 20px; /* 添加一些内边距 */
-  border-radius: 10px; /* 添加圆角 */
-}
   
   
   
