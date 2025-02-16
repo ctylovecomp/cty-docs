@@ -1,0 +1,9 @@
+
+@media (prefers-color-scheme: light) {
+.custom-background {
+    background: linear-gradient(135deg, #FFD700, #FFEC8B); /* 金黄色渐变 */
+    padding: 20px; /* 添加一些内边距 */
+    border-radius: 10px; /* 添加圆角 */
+}
+}
+
