@@ -7,9 +7,18 @@ export default sidebar({
     {
       text: "HTML目录",
       icon: "file-code",
-      prefix: "MeLearnHTML/",
+      prefix: "/MeLearnHTML/",
       link: "MeLearnHTML/",
-      children: "structure",
+      children: [
+        "intro.md",
+        "url.md",
+        "attribute.md",
+        "encode.md",
+        "semantic.md",
+        "text.md",
+        "list.md",
+        "image.md",
+      ],
     },
     {
       text: "JS目录",

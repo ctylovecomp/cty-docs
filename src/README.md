@@ -4,17 +4,17 @@ icon: house
 title: 笔记导航
 bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
-image: 
-heroText: 立秋
-tagline: 🍁静态文档知识点展示，💖谢谢阮一峰大佬分享的资源：https://wangdoc.com/html/，知识文档仅用于毕设
-actions:
-  - text: 前往目录
-    icon: list
-    link: ./demo/
-    type: primary
 
-  - text: 文档
-    link: ./guide/
+heroText: 立秋
+tagline: 🍁文档知识点展示
+# actions:
+#   - text: 前往目录
+#     icon: list
+#     link: ./MeLearnHTML/
+#     type: primary
+
+#   - text: C语言
+#     link: ./MeLearnC/
 
 highlights:
   - header: HTML教程

@@ -8,7 +8,7 @@ export default hopeTheme({
 
   logo: "/maple-leaf.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  // repo: "vuepress-theme-hope/vuepress-theme-hope",//去掉GitHub小猫链接
 
   docsDir: "src",
 
@@ -123,9 +123,9 @@ export default hopeTheme({
     //   categoryId: "DIC_kwDOG_Pt2M4COD69",
     // },
 
-    // components: {
-    //   components: ["Badge", "VPCard"],
-    // },
+    components: {
+      components: ["Badge", "VPCard"],
+    },
 
     icon: {
       prefix: "fa6-solid:",
